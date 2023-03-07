@@ -1,0 +1,17 @@
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Outfit&family=Red+Hat+Display&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
