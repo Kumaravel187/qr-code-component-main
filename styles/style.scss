@@ -14,4 +14,41 @@ $Dark-blue: hsl(218, 44%, 22%);
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    border-radius: 10px;
+    gap: 2rem;
+    padding: 1rem 1rem 2.5rem 1rem;
+    background-color: hsl(0, 0%, 100%);
+    .qr-code {
+      background: url(../images/image-qr-code.png) no-repeat center/cover;
+      height: 300px;
+      border-radius: 10px;
+    }
+    .qr-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+      padding: 0 1rem;
+      h3 {
+        line-height: 1.4;
+        color: hsl(218, 44%, 22%);
+        font-size: 1.6rem;
+        font-weight: 900;
+      }
+      p {
+        line-height: 1.4;
+        color: hsl(220, 15%, 55%);
+        font-size: 1.2rem;
+      }
+    }
+  }
 }
